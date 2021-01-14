@@ -27,7 +27,7 @@ function draw(){
   textSize(15);
   fill("White"); 
   text("Note : Press up arrow to feed Drago milk", 130, 100);
-text("You have " + foodStock + " milk bottles left", 100, 300);
+text("You have " + foodS + " milk bottles left", 100, 300);
 }
 
 function readStock(data){
